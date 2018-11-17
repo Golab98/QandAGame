@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="QandA.ScoreTable"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QandA"
+             mc:Ignorable="d" 
+             d:DesignHeight="420" d:DesignWidth="328.8">
+    <Grid>
+        <TextBlock x:Name="tbListuser" HorizontalAlignment="Left" Margin="42,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="224" Width="157" FontFamily="Segoe UI Semibold" FontSize="18"/>
+        <TextBlock x:Name="tbListscore" HorizontalAlignment="Left" Margin="222,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="224" Width="83" FontFamily="Segoe UI Semibold" FontSize="18"/>
+        <Button Content="Play again" HorizontalAlignment="Left" Margin="201,350,0,0" VerticalAlignment="Top" Width="84" Height="29" Click="Button_Click"/>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="42,350,0,0" VerticalAlignment="Top" Width="84" Height="29" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="50,9,0,0" Height="72" Width="235" FontSize="60" FontStyle="Oblique" LineStackingStrategy="BlockLineHeight" FontFamily="Vladimir Script" LineHeight="72" TextAlignment="Center" Text="QandA "/>
+    </Grid>
+</UserControl>
