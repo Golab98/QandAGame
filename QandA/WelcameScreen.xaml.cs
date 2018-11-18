@@ -103,7 +103,7 @@ namespace QandA
 
 
 			}
-			else MessageBox.Show("password and username min length is 4 characters");
+			else MessageBox.Show("password and username min length is 5 characters");
 
 
 
