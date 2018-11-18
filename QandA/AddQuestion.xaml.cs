@@ -70,7 +70,8 @@ namespace QandA
 		bool IsUnique()
 		{
 			if (CorrectAnswer.Text == Answer1.Text || CorrectAnswer.Text == Answer2.Text ||
-			    CorrectAnswer.Text == Answer3.Text)
+			    CorrectAnswer.Text == Answer3.Text||Answer2.Text==Answer3.Text||Answer1.Text==Answer3.Text||Answer2.Text==Answer1.Text)
+		
 				return false;
 			return true;
 		}

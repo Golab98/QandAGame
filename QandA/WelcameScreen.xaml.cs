@@ -63,14 +63,14 @@ namespace QandA
 				}
 				else
 				{   connection.Close();
-					MessageBox.Show("złe hasło");
+					MessageBox.Show("wrong password");
 
 				}
 					
 			}
 			catch
 			{
-				MessageBox.Show("Nie znaleziono usera");
+				MessageBox.Show("User not found, check nickname or register");
 			}
 		}
 
